@@ -4,6 +4,7 @@ public class Employee {
     private String name;
     private String id;
     private String department;
+    private String age;
 
     public Employee(String name, String id, String department) {
         this.name = name;
@@ -37,4 +38,9 @@ public class Employee {
     public void setDepartment(String department) {
         this.department = department;
     }
+}
+public String getAge() { return age; }
+    public void setAge(String age) { this.age = age;}
+
+
 }
